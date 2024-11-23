@@ -15,3 +15,5 @@ log_image = np.uint8(255 * log_image / np.max(log_image))
 
 inverse_log_image = 255 - log_image  
 cv2.imwrite('inverse_log_scaled_image.png', inverse_log_image)
+
+# TODO: Histogram based segementation
